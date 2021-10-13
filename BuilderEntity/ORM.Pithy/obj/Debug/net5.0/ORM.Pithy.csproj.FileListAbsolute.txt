@@ -1,0 +1,12 @@
+F:\MyProject\C#\WndowsFrom\BuilderEntity\ORM.Pithy\obj\Debug\net5.0\ORM.Pithy.csproj.AssemblyReference.cache
+F:\MyProject\C#\WndowsFrom\BuilderEntity\ORM.Pithy\obj\Debug\net5.0\ORM.Pithy.GeneratedMSBuildEditorConfig.editorconfig
+F:\MyProject\C#\WndowsFrom\BuilderEntity\ORM.Pithy\obj\Debug\net5.0\ORM.Pithy.AssemblyInfoInputs.cache
+F:\MyProject\C#\WndowsFrom\BuilderEntity\ORM.Pithy\obj\Debug\net5.0\ORM.Pithy.AssemblyInfo.cs
+F:\MyProject\C#\WndowsFrom\BuilderEntity\ORM.Pithy\obj\Debug\net5.0\ORM.Pithy.csproj.CoreCompileInputs.cache
+F:\MyProject\C#\WndowsFrom\BuilderEntity\ORM.Pithy\bin\Debug\net5.0\ORM.Pithy.deps.json
+F:\MyProject\C#\WndowsFrom\BuilderEntity\ORM.Pithy\bin\Debug\net5.0\ORM.Pithy.dll
+F:\MyProject\C#\WndowsFrom\BuilderEntity\ORM.Pithy\bin\Debug\net5.0\ref\ORM.Pithy.dll
+F:\MyProject\C#\WndowsFrom\BuilderEntity\ORM.Pithy\bin\Debug\net5.0\ORM.Pithy.pdb
+F:\MyProject\C#\WndowsFrom\BuilderEntity\ORM.Pithy\obj\Debug\net5.0\ORM.Pithy.dll
+F:\MyProject\C#\WndowsFrom\BuilderEntity\ORM.Pithy\obj\Debug\net5.0\ref\ORM.Pithy.dll
+F:\MyProject\C#\WndowsFrom\BuilderEntity\ORM.Pithy\obj\Debug\net5.0\ORM.Pithy.pdb
