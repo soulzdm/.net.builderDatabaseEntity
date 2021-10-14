@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wCATKvptB9jnZFmf2v5BG9jfrNOfbl3yarZXtS9b8Y+XP13hkAZvJLKS7s4zGtI2MtrnJ8ikzsL8vUov6vAe4Q==",
+  "dgSpecHash": "50A+6uqvzckUya6uhyYVxh/AG8HSYQJGPkhlgLaIFTm23MJ780hWYthApOxhkS0SSzexZtjikcrOAQXQBEdMXQ==",
   "success": true,
-  "projectFilePath": "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\ManagerBuilderEntity\\ManagerBuilderEntity.csproj",
+  "projectFilePath": "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\ManagerBuilderEntity\\ManagerBuilderEntity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\11920\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\11920\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

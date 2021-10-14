@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Dc6U88snY+SR6S1yiBjpN0coOkJn2T54QSZmN9lYrxC+HiZQRJMainQ2kkeXi1zurMLyTyhoSWqZEZ8i/pTtqg==",
+  "dgSpecHash": "2G7WP7KLDYXnB6q5VJFoEQ5vYTTstVWeJQ2giUkqvvfAoW5G689eSjrVulv78rBpEY1IgfVGYqemtHVlRNeQ/g==",
   "success": true,
-  "projectFilePath": "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\SqlServerModule\\SqlServerModule.csproj",
+  "projectFilePath": "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\SqlServerModule\\SqlServerModule.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\11920\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\11920\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

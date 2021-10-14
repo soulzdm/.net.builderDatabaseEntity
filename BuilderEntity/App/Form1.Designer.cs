@@ -1,5 +1,5 @@
 ﻿
-namespace BuilderEntity
+namespace App
 {
     partial class Form1
     {

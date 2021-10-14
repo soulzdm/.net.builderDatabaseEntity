@@ -12,6 +12,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\ManagerBuilderEntity\ManagerBuilderEntity.csproj" />
     <ProjectReference Include="..\SqlServerModule\SqlServerModule.csproj" />
   </ItemGroup>

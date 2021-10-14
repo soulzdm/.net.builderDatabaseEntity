@@ -8,10 +8,28 @@ namespace Common
 {
     public static class SqlTemplate
     {
+        /// <summary>
+        /// 查询sqlServer中包含的数据库
+        /// </summary>
+        /// <returns></returns>
+        public static string GetSqlServerQueryDataBases()
+        {
+            return "select * from sysdatabases where name<>'master' and name<>'tempdb' and name<> 'model' and name<>'msdb';";
+        }
+
+        /// <summary>
+        /// 查询数据库中包含的表
+        /// </summary>
+        /// <returns></returns>
         public static string GetSqlServerQueryTables()
         {
             return "SELECT Name as TableName FROM SysObjects Where XType='U' ORDER BY Name";
         }
+        /// <summary>
+        /// 查询数据库中包含的表名称
+        /// </summary>
+        /// <param name="TableName"></param>
+        /// <returns></returns>
 
         public static string GetSqlServerQueryTableByTableName(string TableName)
         {
@@ -36,6 +54,20 @@ namespace Common
                     " left join sys.extended_properties f on d.id = f.class and f.minor_id=0" +
                     $" WHERE d.name= '{TableName}'" +
                       " order by a.id, a.colorder";
+        }
+
+        public static string GetMysqlQueryDataBases()
+        {
+            return "SHOW DATABASES;";
+        }
+        public static string GetMysqlQueryTables()
+        {
+            return "SHOW Tables;";
+        }
+
+        public static string GetMysqlQueryTableInfo(string TableName)
+        {
+            return $"DESC {TableName};";
         }
     }
 }

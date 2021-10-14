@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PhHEylkaEj1KlqQiwpeXPJdxPo88KtHdl9xoC1+615n8m54UnldquOATKKB+6fmdMIrIIYlcrO7ZSxE4E6VG4w==",
+  "dgSpecHash": "pJp6AeJRkBJ21Yg0mZHcVmngj/Mq+FVSDWNdhQacxlT+nLG518hiRtCzBtiXVEZabvVpOHkSaYVNmmqGuymqeg==",
   "success": true,
-  "projectFilePath": "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\ORM.Pithy\\ORM.Pithy.csproj",
+  "projectFilePath": "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\ORM.Pithy\\ORM.Pithy.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

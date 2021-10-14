@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\ConsoleApp\\ConsoleApp.csproj": {}
+    "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\ConsoleApp\\ConsoleApp.csproj": {}
   },
   "projects": {
-    "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\Common\\Common.csproj": {
+    "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\Common\\Common.csproj",
+        "projectUniqueName": "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\Common\\Common.csproj",
+        "projectPath": "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\11920\\.nuget\\packages\\",
-        "outputPath": "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\Common\\obj\\",
+        "outputPath": "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -62,14 +62,14 @@
         }
       }
     },
-    "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\ConsoleApp\\ConsoleApp.csproj": {
+    "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\ConsoleApp\\ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\ConsoleApp\\ConsoleApp.csproj",
+        "projectUniqueName": "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\ConsoleApp\\ConsoleApp.csproj",
         "projectName": "ConsoleApp",
-        "projectPath": "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\ConsoleApp\\ConsoleApp.csproj",
+        "projectPath": "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\ConsoleApp\\ConsoleApp.csproj",
         "packagesPath": "C:\\Users\\11920\\.nuget\\packages\\",
-        "outputPath": "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\ConsoleApp\\obj\\",
+        "outputPath": "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -90,11 +90,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\ManagerBuilderEntity\\ManagerBuilderEntity.csproj": {
-                "projectPath": "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\ManagerBuilderEntity\\ManagerBuilderEntity.csproj"
+              "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\ManagerBuilderEntity\\ManagerBuilderEntity.csproj": {
+                "projectPath": "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\ManagerBuilderEntity\\ManagerBuilderEntity.csproj"
               },
-              "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\SqlServerModule\\SqlServerModule.csproj": {
-                "projectPath": "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\SqlServerModule\\SqlServerModule.csproj"
+              "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\SqlServerModule\\SqlServerModule.csproj": {
+                "projectPath": "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\SqlServerModule\\SqlServerModule.csproj"
               }
             }
           }
@@ -108,6 +108,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -133,14 +139,14 @@
         }
       }
     },
-    "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\ManagerBuilderEntity\\ManagerBuilderEntity.csproj": {
+    "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\ManagerBuilderEntity\\ManagerBuilderEntity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\ManagerBuilderEntity\\ManagerBuilderEntity.csproj",
+        "projectUniqueName": "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\ManagerBuilderEntity\\ManagerBuilderEntity.csproj",
         "projectName": "ManagerBuilderEntity",
-        "projectPath": "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\ManagerBuilderEntity\\ManagerBuilderEntity.csproj",
+        "projectPath": "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\ManagerBuilderEntity\\ManagerBuilderEntity.csproj",
         "packagesPath": "C:\\Users\\11920\\.nuget\\packages\\",
-        "outputPath": "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\ManagerBuilderEntity\\obj\\",
+        "outputPath": "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\ManagerBuilderEntity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -161,11 +167,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\Common\\Common.csproj": {
-                "projectPath": "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\Common\\Common.csproj"
+              "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\Common\\Common.csproj": {
+                "projectPath": "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\Common\\Common.csproj"
               },
-              "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\SqlServerModule\\SqlServerModule.csproj": {
-                "projectPath": "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\SqlServerModule\\SqlServerModule.csproj"
+              "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\SqlServerModule\\SqlServerModule.csproj": {
+                "projectPath": "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\SqlServerModule\\SqlServerModule.csproj"
               }
             }
           }
@@ -198,14 +204,14 @@
         }
       }
     },
-    "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\ORM.Pithy\\ORM.Pithy.csproj": {
+    "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\ORM.Pithy\\ORM.Pithy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\ORM.Pithy\\ORM.Pithy.csproj",
+        "projectUniqueName": "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\ORM.Pithy\\ORM.Pithy.csproj",
         "projectName": "ORM.Pithy",
-        "projectPath": "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\ORM.Pithy\\ORM.Pithy.csproj",
+        "projectPath": "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\ORM.Pithy\\ORM.Pithy.csproj",
         "packagesPath": "C:\\Users\\11920\\.nuget\\packages\\",
-        "outputPath": "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\ORM.Pithy\\obj\\",
+        "outputPath": "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\ORM.Pithy\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -256,14 +262,14 @@
         }
       }
     },
-    "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\SqlServerModule\\SqlServerModule.csproj": {
+    "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\SqlServerModule\\SqlServerModule.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\SqlServerModule\\SqlServerModule.csproj",
+        "projectUniqueName": "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\SqlServerModule\\SqlServerModule.csproj",
         "projectName": "SqlServerModule",
-        "projectPath": "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\SqlServerModule\\SqlServerModule.csproj",
+        "projectPath": "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\SqlServerModule\\SqlServerModule.csproj",
         "packagesPath": "C:\\Users\\11920\\.nuget\\packages\\",
-        "outputPath": "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\SqlServerModule\\obj\\",
+        "outputPath": "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\SqlServerModule\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -284,8 +290,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\ORM.Pithy\\ORM.Pithy.csproj": {
-                "projectPath": "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\ORM.Pithy\\ORM.Pithy.csproj"
+              "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\Common\\Common.csproj": {
+                "projectPath": "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\Common\\Common.csproj"
+              },
+              "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\ORM.Pithy\\ORM.Pithy.csproj": {
+                "projectPath": "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\ORM.Pithy\\ORM.Pithy.csproj"
               }
             }
           }

@@ -10,3 +10,15 @@ F:\MyProject\C#\WndowsFrom\BuilderEntity\Common\obj\Debug\net5.0\Common.csproj.C
 F:\MyProject\C#\WndowsFrom\BuilderEntity\Common\obj\Debug\net5.0\Common.dll
 F:\MyProject\C#\WndowsFrom\BuilderEntity\Common\obj\Debug\net5.0\ref\Common.dll
 F:\MyProject\C#\WndowsFrom\BuilderEntity\Common\obj\Debug\net5.0\Common.pdb
+F:\MyProject\C#\WndowsFrom\.net.builderDatabaseEntity\BuilderEntity\Common\bin\Debug\net5.0\Common.deps.json
+F:\MyProject\C#\WndowsFrom\.net.builderDatabaseEntity\BuilderEntity\Common\bin\Debug\net5.0\Common.dll
+F:\MyProject\C#\WndowsFrom\.net.builderDatabaseEntity\BuilderEntity\Common\bin\Debug\net5.0\ref\Common.dll
+F:\MyProject\C#\WndowsFrom\.net.builderDatabaseEntity\BuilderEntity\Common\bin\Debug\net5.0\Common.pdb
+F:\MyProject\C#\WndowsFrom\.net.builderDatabaseEntity\BuilderEntity\Common\obj\Debug\net5.0\Common.csproj.AssemblyReference.cache
+F:\MyProject\C#\WndowsFrom\.net.builderDatabaseEntity\BuilderEntity\Common\obj\Debug\net5.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+F:\MyProject\C#\WndowsFrom\.net.builderDatabaseEntity\BuilderEntity\Common\obj\Debug\net5.0\Common.AssemblyInfoInputs.cache
+F:\MyProject\C#\WndowsFrom\.net.builderDatabaseEntity\BuilderEntity\Common\obj\Debug\net5.0\Common.AssemblyInfo.cs
+F:\MyProject\C#\WndowsFrom\.net.builderDatabaseEntity\BuilderEntity\Common\obj\Debug\net5.0\Common.csproj.CoreCompileInputs.cache
+F:\MyProject\C#\WndowsFrom\.net.builderDatabaseEntity\BuilderEntity\Common\obj\Debug\net5.0\Common.dll
+F:\MyProject\C#\WndowsFrom\.net.builderDatabaseEntity\BuilderEntity\Common\obj\Debug\net5.0\ref\Common.dll
+F:\MyProject\C#\WndowsFrom\.net.builderDatabaseEntity\BuilderEntity\Common\obj\Debug\net5.0\Common.pdb

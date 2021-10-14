@@ -1,5 +1,6 @@
 ﻿using Common;
 using ManagerBuilderEntity;
+using MySqlConnector;
 using SqlServerModule;
 using System;
 using System.IO;
@@ -40,17 +41,30 @@ namespace ConsoleApp
             //fs.Flush();
             //fs.Close();
 
-            BuilderSqlServer builderSqlServer = new BuilderSqlServer(
-            new BuilderParameter() { 
-            NameSapce= "ConsoleApp",
-            BuilderPath=Path.Combine(@"F:\MyProject\C#\WndowsFrom\BuilderEntity\ConsoleApp\Entity"),
-            DBName="test",
-            Ip=".",
-            DBPassword="123456",
-            DbType=DBType.Mysql,
-            DBUser="sa"
-            });
-            await builderSqlServer.BuilderEntityByDBTable();
+            //BuilderSqlServer builderSqlServer = new BuilderSqlServer(
+            //new BuilderParameter() { 
+            //NameSapce= "ConsoleApp",
+            //BuilderPath=Path.Combine(@"F:\MyProject\C#\WndowsFrom\BuilderEntity\ConsoleApp\Entity"),
+            //DBName="test",
+            //Ip=".",
+            //DBPassword="123456",
+            //DbType=DBType.Mysql,
+            //DBUser="sa"
+            //});
+            string StrCon = "server=127.0.0.1;user=root;pwd=123456";
+            MySqlConnection connection = new MySqlConnection(StrCon);
+            connection.Open();
+            MySqlCommand com = new MySqlCommand("show databases;",connection);
+            MySqlDataReader ReadData = com.ExecuteReader();
+            while (ReadData.Read())
+            {
+                Console.WriteLine(ReadData["DataBase"].ToString());
+            }
+            ReadData.Close();
+            ReadData.Dispose();
+            com.Dispose();
+            connection.Close();
+            //await builderSqlServer.BuilderEntityByDBTable();
         }
     }
 }

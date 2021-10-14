@@ -131,6 +131,16 @@
           }
         }
       },
+      "Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.dll": {}
+        }
+      },
       "ORM.Pithy/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -457,6 +467,11 @@
         "version.txt"
       ]
     },
+    "Common/1.0.0": {
+      "type": "project",
+      "path": "../Common/Common.csproj",
+      "msbuildProject": "../Common/Common.csproj"
+    },
     "ORM.Pithy/1.0.0": {
       "type": "project",
       "path": "../ORM.Pithy/ORM.Pithy.csproj",
@@ -465,6 +480,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Common >= 1.0.0",
       "ORM.Pithy >= 1.0.0",
       "System.Data.SqlClient >= 4.8.3"
     ]
@@ -476,11 +492,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\SqlServerModule\\SqlServerModule.csproj",
+      "projectUniqueName": "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\SqlServerModule\\SqlServerModule.csproj",
       "projectName": "SqlServerModule",
-      "projectPath": "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\SqlServerModule\\SqlServerModule.csproj",
+      "projectPath": "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\SqlServerModule\\SqlServerModule.csproj",
       "packagesPath": "C:\\Users\\11920\\.nuget\\packages\\",
-      "outputPath": "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\SqlServerModule\\obj\\",
+      "outputPath": "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\SqlServerModule\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -501,8 +517,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\ORM.Pithy\\ORM.Pithy.csproj": {
-              "projectPath": "F:\\MyProject\\C#\\WndowsFrom\\BuilderEntity\\ORM.Pithy\\ORM.Pithy.csproj"
+            "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\Common\\Common.csproj": {
+              "projectPath": "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\Common\\Common.csproj"
+            },
+            "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\ORM.Pithy\\ORM.Pithy.csproj": {
+              "projectPath": "F:\\MyProject\\C#\\WndowsFrom\\.net.builderDatabaseEntity\\BuilderEntity\\ORM.Pithy\\ORM.Pithy.csproj"
             }
           }
         }
